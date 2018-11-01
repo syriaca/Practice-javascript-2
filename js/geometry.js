@@ -1,3 +1,5 @@
+const pi = Math.PI;
+
 // 1. Attach this file geometry.js to the index.html file
 
 // 2. Create a function that calculates the area of a rectangle.
@@ -24,11 +26,16 @@ rectangularPrismVolume = (width, height, length) => {
 
 console.log(rectangularPrismVolume(4.5, 12.5, 17.4));
 
-
 // 4. Create a function that calculates the area of a circle.
 //    The function should accept the radius of the circle as an argument
 //    and return the area of that circle.
 //    The area of a circle is the value of π * radius^2
+
+circleArea = (pi, radius) => {
+    let result = pi * Math.pow(radius, 2);
+    return result;
+}
+console.log(circleArea(pi, 7.2));
 
 // 5. Create a function that calculates the volume of a sphere.
 //    The function should accept the radius of the sphere as an argument
