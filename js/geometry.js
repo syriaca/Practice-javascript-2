@@ -1,3 +1,5 @@
+'use strict';
+
 const pi = Math.PI;
 
 // 1. Attach this file geometry.js to the index.html file
@@ -7,7 +9,7 @@ const pi = Math.PI;
 //    and return the area of that rectangle.
 //    The area of a rectangle is the width * height
 
-rectangleArea = (width, height) => {
+let rectangleArea = (width, height) => {
     let result = parseInt(width * height);
     return result;
 };
@@ -19,7 +21,7 @@ console.log(rectangleArea(5, 22));
 //    and return the volume of that rectangular prism.
 //    The volume of a rectangular prism is the width * height * length
 
-rectangularPrismVolume = (width, height, length) => {
+let rectangularPrismVolume = (width, height, length) => {
     let result = width * height * length;
     return result;
 }
@@ -31,7 +33,7 @@ console.log(rectangularPrismVolume(4.5, 12.5, 17.4));
 //    and return the area of that circle.
 //    The area of a circle is the value of π * radius^2
 
-circleArea = (pi, radius) => {
+let circleArea = (pi, radius) => {
     let result = pi * Math.pow(radius, 2);
     return result;
 }
@@ -41,6 +43,13 @@ console.log(circleArea(pi, 7.2));
 //    The function should accept the radius of the sphere as an argument
 //    and return the volume.
 //    The volume of a circle is: 4/3 *  π * radius^3
+
+let sphereVolume = (pi, radius) => {
+    let result = 4/3 * pi * Math.pow(radius, 3);
+    return result;
+}
+console.log(sphereVolume(pi, 7.2));
+
 
 // 6. Use console.log to test each function and output to the JavaScript console
 //    Here are the values to test and the expected results
