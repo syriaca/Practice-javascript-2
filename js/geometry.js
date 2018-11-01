@@ -17,6 +17,14 @@ console.log(rectangleArea(5, 22));
 //    and return the volume of that rectangular prism.
 //    The volume of a rectangular prism is the width * height * length
 
+rectangularPrismVolume = (width, height, length) => {
+    let result = width * height * length;
+    return result;
+}
+
+console.log(rectangularPrismVolume(4.5, 12.5, 17.4));
+
+
 // 4. Create a function that calculates the area of a circle.
 //    The function should accept the radius of the circle as an argument
 //    and return the area of that circle.
