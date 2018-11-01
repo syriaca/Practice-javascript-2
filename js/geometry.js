@@ -57,12 +57,3 @@ console.log(sphereVolume(pi, 7.2));
 //    -- Volume of a rectangular prism that is 4.5 x 12.5 x 17.4: 978.7499999999999
 //    -- Area of a circle that with a radius of 7.2: 162.8601631620949
 //    -- Volume of a spehere with a radius of 7.2: 1563.4575663561109
-
-
-
-
-
-
-
-
-
